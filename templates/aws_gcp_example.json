@@ -15,7 +15,11 @@
 	},
 	{
 		"type": "googlecompute",
-		
+		"account_file": "gcp_key.json",
+		"project_id": "batch-day",
+		"source_image_family": "ubuntu-1404-lts",
+		"ssh_username": "nick",
+		"zone": "us-east1-b"
 	}],
 	"provisioners": [{
 		"type": "shell",
